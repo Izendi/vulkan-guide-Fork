@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>C:\Code\VulkanCode\vk_Guide\vulkan-guide-Fork\cmakebuild\x64\Debug\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Code\VulkanCode\vk_Guide\vulkan-guide-Fork\cmakebuild\x64\Debug\sdl_headers_copy</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Code\VulkanCode\vk_Guide\vulkan-guide-Fork\cmakebuild\third_party\SDL\Debug\SDL2d.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Code\VulkanCode\vk_Guide\vulkan-guide-Fork\bin\Debug\engine.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Code\VulkanCode\vk_Guide\vulkan-guide-Fork\cmakebuild\x64\Debug\ALL_BUILD</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

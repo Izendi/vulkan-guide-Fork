@@ -10,9 +10,16 @@
 #include <chrono>
 #include <thread>
 
+//Line from "vk_engine.cpp, line 10" example: https://vkguide.dev/docs/new_chapter_0/code_walkthrough/
+constexpr bool bUseValidationLayers = false;
+
 VulkanEngine* loadedEngine = nullptr;
 
-VulkanEngine& VulkanEngine::Get() { return *loadedEngine; }
+VulkanEngine& VulkanEngine::Get() 
+{ 
+    return *loadedEngine; 
+}
+
 void VulkanEngine::init()
 {
     // only one engine initialization is allowed with the application.
@@ -63,7 +70,22 @@ void VulkanEngine::run()
         while (SDL_PollEvent(&e) != 0) {
             // close the window when user alt-f4s or clicks the X button
             if (e.type == SDL_QUIT)
+            {
                 bQuit = true;
+            }
+
+            if(e.type == SDL_KEYDOWN)
+            {
+                if(e.key.keysym.sym == SDLK_o)
+                {
+                    fmt::print("O key was pressed!\n");
+                }
+
+                if(e.key.keysym.sym == SDLK_ESCAPE)
+                {
+                    bQuit = true;
+                }
+            }
 
             if (e.type == SDL_WINDOWEVENT) {
                 if (e.window.event == SDL_WINDOWEVENT_MINIMIZED) {
