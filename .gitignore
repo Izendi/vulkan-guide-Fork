@@ -1,2 +1,44 @@
-/build
-/bin
+# Build directories
+/build/
+/bin/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+/cmake_install.cmake
+*.cmake
+
+# Visual Studio files
+.vs/
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Logs and databases
+*.log
+*.tlog
+*.obj
+*.pch
+*.pdb
+*.idb
+*.ipch
+
+# Executable and library files
+*.exe
+*.dll
+*.lib
+*.so
+*.dylib
+*.out
+
+# Temporary files
+*.tmp
+*.cache
+
+# Backup files
+*~
