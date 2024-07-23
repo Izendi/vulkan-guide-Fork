@@ -76,11 +76,6 @@ void VulkanEngine::run()
 
             if(e.type == SDL_KEYDOWN)
             {
-                if(e.key.keysym.sym == SDLK_o)
-                {
-                    fmt::print("O key was pressed!\n");
-                }
-
                 if(e.key.keysym.sym == SDLK_ESCAPE)
                 {
                     bQuit = true;
